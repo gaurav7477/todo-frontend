@@ -9,8 +9,8 @@ const Profile = () => {
         <Loader />
     ) : (
         <div>
-            <h1>{user?.name}</h1>
-            <p>{user?.email}</p>
+            <h1>Name - {user?.name}</h1>
+            <p>Email - {user?.email}</p>
         </div>
     );
 };
